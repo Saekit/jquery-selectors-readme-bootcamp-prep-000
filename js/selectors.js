@@ -10,3 +10,11 @@ function ninjaBabySelector() {
   var ninja = $('#baby-ninja');
   return ninja;
 }
+function divSelector() {
+  var divs = $('.pics');
+  return divs;
+}
+function firstListItem() {
+  var firstItem = $('#pic-list ul:first-child')
+  return firstItem;
+}
